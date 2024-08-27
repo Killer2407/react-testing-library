@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AppOne } from './AppOne';
 import SnapShot from './SnapShot';
@@ -16,6 +15,13 @@ import TestId from './getTestId';
 import DisplayValue from './displayValue';
 import TitleValue from './titleValue';
 import AltText from './altText';
+import Assertion from './assertionMethods/assertion';
+import TextMatch from './TextMatchRegex/textMatch';
+import QueryBy from './queryBy/queryBy';
+import FindBy from './findBy/findBy';
+import JavaScriptQuery from './javascriptQuery/javaScriptQuery';
+import ClickEvent from './clickEvent/clickEvent';
+import OnChange from './onChange/onChange';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +39,14 @@ root.render(
     {/* <TestId /> */}
     {/* <DisplayValue /> */}
     {/* <TitleValue /> */}
-    <AltText />
+    {/* <AltText /> */}
+    {/* <Assertion /> */}
+    {/* <TextMatch /> */}
+    {/* <QueryBy /> */}
+    {/* <FindBy /> */}
+    {/* <JavaScriptQuery /> */}
+    {/* <ClickEvent /> */}
+    <OnChange />
 
   </React.StrictMode>
 );
