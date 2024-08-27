@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { AppOne } from './AppOne';
+import SnapShot from './SnapShot';
+import { Functional } from './functional'
+import Getbyrole from './getByRole';
+import GetAllbyrole from './getAllByRole';
+import GetByLabelText from './getByLabelText';
+import GetAllByLabel from './getAllByLabel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <AppOne /> */}
+    {/* <SnapShot /> */}
+    {/* <Functional /> */}
+    {/* <Getbyrole /> */}
+    {/* <GetAllbyrole /> */}
+    {/* <GetByLabelText /> */}
+    <GetAllByLabel />
+
   </React.StrictMode>
 );
 
