@@ -10,6 +10,12 @@ import Getbyrole from './getByRole';
 import GetAllbyrole from './getAllByRole';
 import GetByLabelText from './getByLabelText';
 import GetAllByLabel from './getAllByLabel';
+import GetByPlaceHolder from './getByPlaceHolder';
+import GetByText from './getText';
+import TestId from './getTestId';
+import DisplayValue from './displayValue';
+import TitleValue from './titleValue';
+import AltText from './altText';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +27,13 @@ root.render(
     {/* <Getbyrole /> */}
     {/* <GetAllbyrole /> */}
     {/* <GetByLabelText /> */}
-    <GetAllByLabel />
+    {/* <GetAllByLabel /> */}
+    {/* <GetByPlaceHolder /> */}
+    {/* <GetByText /> */}
+    {/* <TestId /> */}
+    {/* <DisplayValue /> */}
+    {/* <TitleValue /> */}
+    <AltText />
 
   </React.StrictMode>
 );
