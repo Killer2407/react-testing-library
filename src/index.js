@@ -22,6 +22,8 @@ import FindBy from './findBy/findBy';
 import JavaScriptQuery from './javascriptQuery/javaScriptQuery';
 import ClickEvent from './clickEvent/clickEvent';
 import OnChange from './onChange/onChange';
+import PropsComponent from './testComponent/propsComponent';
+import MockServices from './mockService/mockService';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,8 +48,11 @@ root.render(
     {/* <FindBy /> */}
     {/* <JavaScriptQuery /> */}
     {/* <ClickEvent /> */}
-    <OnChange />
-
+    {/* <OnChange /> */}
+    {/* <PropsComponent /> */}
+    {/* <PropsComponent /> */}
+    <MockServices />
+    
   </React.StrictMode>
 );
 
